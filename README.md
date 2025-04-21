@@ -9,9 +9,9 @@ Click on the image for the video demo. The loop closure can be seen around 18 se
 
 ## Setup
 The Turtlebot3 Burger is used for simulation in a custom Gazebo world. The landmarks of the environment consist of cylinders whose centers serve as the landmark coordinates. 
-1. Install Turtlebot3 pacakges
+1. Install Turtlebot3 pacakges and other dependencies
 ```
-sudo apt install ros-<ros2 version>-turtlebot3*
+sudo apt install ros-<ros2 version>-turtlebot3* python3-sklearn python3-easydict ros-jazzy-nav2-bringup ros-jazzy-gazebo-ros-pkgs
 ```
 2. Clone the current repo into a ros2 workspace
 ```
